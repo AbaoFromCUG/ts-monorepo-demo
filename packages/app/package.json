@@ -3,13 +3,19 @@
     "version": "1.0.0",
     "description": "",
     "main": "./dist/index.js",
+    "type": "module",
     "scripts": {
-        "dev": "tsc --build --watch"
+        "dev": "tsc --build --watch",
+        "build-vite": "vite build",
+        "build": "tsc --build"
     },
     "dependencies": {
-        "@monorepo/lib": "workspace: *"
+        "@monorepo/lib": "workspace:^"
     },
     "keywords": [],
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "vite": "^5.0.10"
+    }
 }

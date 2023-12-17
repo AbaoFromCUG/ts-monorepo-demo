@@ -6,14 +6,14 @@
         "moduleResolution": "node",
         "sourceMap": true,
 
+        "composite": true,
         "declaration": true,
         "declarationMap": true,
-        "composite": true,
     },
     "references": [
-        {
-            "path": "packages/app",
-        },
+        // {
+        //     "path": "packages/app",
+        // },
         {
             "path": "packages/lib",
         },

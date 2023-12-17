@@ -4,10 +4,11 @@
     "description": "",
     "main": "./dist/index.js",
     "types": "./dist/index.d.ts",
-    "scripts": {
-        "dev": "tsc --build --watch"
-    },
+    "scripts": {},
     "keywords": [],
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "devDependencies": {
+        "vite": "^5.0.10"
+    }
 }

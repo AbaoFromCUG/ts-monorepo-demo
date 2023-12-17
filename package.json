@@ -4,7 +4,9 @@
     "description": "",
     "main": "index.js",
     "scripts": {
-        "dev": "pnpm run -r -p dev"
+        "dev": "pnpm run -r --filter app dev",
+        "build-vite": "pnpm run -r --filter app build-vite",
+        "build": "pnpm run -r --filter app build"
     },
     "keywords": [],
     "author": "",
